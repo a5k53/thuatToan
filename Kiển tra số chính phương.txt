@@ -1,0 +1,13 @@
+Ktra x có phải số chính phương hay không
+
++) Khai căn x và gán giá trị đó cho 1 biến khác
+đồng thời ép kiểu dữ liệu cho căn đó sang int
+
+    ( VD: int khai_can = (int)sqrt(x) )
+
++) Kiểm tra :
+
+ TH1 : Nếu bình phương của biến khai_can == với giá trị x ban đầu
+   => thì x là số chính phương
+ TH2 : Ngược lại (Bình phương của khai_can mà khác với giá trị x ban đầu)
+   => thì x không phải là số chính phương

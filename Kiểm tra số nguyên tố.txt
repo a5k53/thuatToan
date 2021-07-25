@@ -1,0 +1,20 @@
+Nếu x <=1 thì quay lại (vì số nguyên tố thuộc tập hợp N*)
+
+
+Khi x thỏa mãn thì chạy vòng lặp:
++) Gán 1 biến nào đó (ví dụ biến i) bằng 2 và bắt đầu chạy vòng lặp
++) Lặp từ i=2 đến i = x-1
+
+(vì số nguyên tố chỉ chia hết cho 1 và chính nó,
+khi nó chia hết cho 1 số trong khoảng đó thì nó không phải số nguyên tố)
+
++) tăng i thêm 1 đơn vị
+
+  TH1:  Nếu x chia hết cho i thì không phải số nguyên tố
+  TH2:  Nếu x không chia hết cho số nào trong khoảng đó thì 
+        đó là số nguyên tố 
+
+(vì nó chia hết cho 1 và chính nó)
+
+
+That's all
